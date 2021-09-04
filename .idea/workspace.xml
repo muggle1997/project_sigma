@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3016c930-e664-4375-a422-53575a793881" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxxx/seckill/config/AccessLimit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxxx/seckill/config/AccessLimit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxxx/seckill/config/AccessLimitInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxxx/seckill/config/AccessLimitInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxxx/seckill/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxxx/seckill/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxxx/seckill/config/UserArgumentResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxxx/seckill/config/UserArgumentResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxxx/seckill/config/UserContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxxx/seckill/config/UserContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxxx/seckill/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxxx/seckill/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxxx/seckill/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxxx/seckill/controller/GoodsController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,7 +294,7 @@
       <workItem from="1628998244112" duration="589000" />
       <workItem from="1629533122756" duration="1209000" />
       <workItem from="1630137462336" duration="280000" />
-      <workItem from="1630747197093" duration="1914000" />
+      <workItem from="1630747197093" duration="2530000" />
     </task>
     <servers />
   </component>

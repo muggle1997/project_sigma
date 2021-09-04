@@ -9,15 +9,7 @@ import org.springframework.data.redis.core.script.DefaultRedisScript;
 import org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 
-/**
- * Redis配置类
- * <p>
- * 乐字节：专注线上IT培训
- * 答疑老师微信：lezijie
- *
- * @author zhoubin
- * @since 1.0.0
- */
+
 @Configuration
 public class RedisConfig {
 

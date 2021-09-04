@@ -10,15 +10,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import java.util.List;
 
-/**
- * MVC配置类
- * <p>
- * 乐字节：专注线上IT培训
- * 答疑老师微信：lezijie
- *
- * @author zhoubin
- * @since 1.0.0
- */
+
 @Configuration
 @EnableWebMvc
 public class WebConfig implements WebMvcConfigurer {

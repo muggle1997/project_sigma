@@ -20,13 +20,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.concurrent.TimeUnit;
 
-/**
- * 乐字节：专注线上IT培训
- * 答疑老师微信：lezijie
- *
- * @author zhoubin
- * @since 1.0.0
- */
+
 @Component
 public class AccessLimitInterceptor implements HandlerInterceptor {
 
@@ -71,15 +65,7 @@ public class AccessLimitInterceptor implements HandlerInterceptor {
 	}
 
 
-	/**
-	 * 功能描述: 构建返回对象
-	 *
-	 * @param:
-	 * @return: 乐字节：专注线上IT培训
-	 * 答疑老师微信：lezijie
-	 * @since: 1.0.0
-	 * @Author:zhoubin
-	 */
+
 	private void render(HttpServletResponse response, RespBeanEnum respBeanEnum) throws IOException {
 		response.setContentType("application/json");
 		response.setCharacterEncoding("UTF-8");
@@ -93,11 +79,8 @@ public class AccessLimitInterceptor implements HandlerInterceptor {
 	/**
 	 * 功能描述: 获取当前登录用户
 	 *
-	 * @param:
-	 * @return: 乐字节：专注线上IT培训
-	 * 答疑老师微信：lezijie
 	 * @since: 1.0.0
-	 * @Author:zhoubin
+	 * @Author:muggle
 	 */
 	private User getUser(HttpServletRequest request, HttpServletResponse response) {
 		String ticket = CookieUtil.getCookieValue(request, "userTicket");

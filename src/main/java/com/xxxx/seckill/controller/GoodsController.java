@@ -65,10 +65,7 @@ public class GoodsController {
 	 * 功能描述: 跳转商品详情页
 	 *
 	 * @param:
-	 * @return: 乐字节：专注线上IT培训
-	 * 答疑老师微信：lezijie
 	 * @since: 1.0.0
-	 * @Author:zhoubin
 	 */
 	@RequestMapping(value = "/toDetail2/{goodsId}", produces = "text/html;charset=utf-8")
 	@ResponseBody
